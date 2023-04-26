@@ -1,0 +1,171 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  background-color: #F5F7FB;
+  color: #293264;
+  height: 100vh;
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Inter, sans-serif;
+}
+
+
+/* ***** Typography ***** */
+h1,
+.question,
+.answer,
+h5,
+p {
+  margin: 0;
+}
+
+h1 {
+  font-size: 2rem;
+  font-family: Karla, sans-serif;
+  font-weight: 700;
+  margin-bottom: 0.5em;
+}
+
+.start-page > p {
+  margin-bottom: 1.75em;
+}
+
+.question {
+  font-family: Karla, sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 0.75em;
+}
+
+
+/* ***** Buttons ***** */
+button {
+  background-color: #4D5B9E;
+  font-family: Inter, sans-serif;
+  color: #F5F7FB;
+  border: none;
+  cursor: pointer;
+}
+
+.start-page-btn {
+  font-weight: 500;
+  font-size: 1rem;
+  padding: 1em 3.75em;
+  border-radius: 15px;
+}
+
+.answer-btn {
+  border: 1px solid #4D5B9E;
+  border-radius: 8px;
+  background-color: transparent;
+  color: #293264;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 0.625rem;
+  padding: 0.4em 1.9em;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.answer-btn:hover,
+.answer-btn:focus {
+  background-color: #D6DBF5;
+  border: 1px solid #D6DBF5;
+}
+
+.chosen {
+  background-color: #D6DBF5;
+  border: 1px solid #D6DBF5;
+}
+
+.correct {
+  background-color: #94D7A2;
+  border: 1px solid #94D7A2;
+}
+
+.incorrect {
+  background-color: #F8BCBC;
+  border: 1px solid #F8BCBC;
+  opacity: 50%;
+}
+
+.not-selected {
+  opacity: 50%;
+}
+
+.score-btn {
+  font-weight: 600;
+  font-size: 0.625rem;  
+  padding: 1em 2em;
+  border-radius: 10px;
+  display: block;
+}
+
+
+/* ***** Images ***** */
+.blob-top,
+.blob-bottom {
+  position: absolute;
+  z-index: -1;
+  width: 200px;
+  margin: 0;
+}
+
+.blob-top {
+  top: 0;
+  right: 0;
+}
+
+.blob-bottom {
+  bottom: 0;
+  left: 0;
+}
+
+
+/* ***** Layout ***** */
+.start-page {
+  text-align: center;
+  position: relative;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quiz-container {
+  margin: 0 2em;
+}
+
+.question-container {
+  padding: 1rem 0;
+  border-bottom: 1px solid #DBDEF0;
+}
+
+.answers-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 0.8125em;
+}
+
+.bottom-container {
+  margin-top: 1.25em;
+  font-weight: 700;
+  font-size: 0.8125rem;
+}
+
+.bottom-container > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.75em;
+  margin-left: 2.5em;
+}
