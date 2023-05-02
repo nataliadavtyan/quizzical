@@ -9,7 +9,7 @@ The quiz starts when the "Start quiz" button is pressed. It contains of 5 questi
 ![The demonstration](demo/quizzical.gif)
 ![The demonstration of confetti](demo/quizzical-confetti.png)
 
-Test it on Netlify: https://snazzy-kulfi-af18a4.netlify.app/
+Test it on Netlify: https://quizzical-natalia-davtyan.netlify.app/
 
 ## Technologies
 The project is built using:
