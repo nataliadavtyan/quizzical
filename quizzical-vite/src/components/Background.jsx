@@ -1,8 +1,8 @@
 import React from "react"
 
 export default function Background() {
-    const topBlob = "../src/images/blob-yellow.png"
-    const bottomBlob = "../src/images/blob-blue.png"
+    const topBlob = "../images//blob-yellow.png"
+    const bottomBlob = "../images//blob-blue.png"
     
     return (
         <div>
